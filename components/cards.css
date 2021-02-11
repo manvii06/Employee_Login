@@ -1,0 +1,33 @@
+.card{
+  display:block;
+   background-color: rgba(255, 255, 255, 0.6);
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+   transition: 0.4s;
+   float:left;
+   margin: 7px;
+   cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+@media only screen and (min-width: 315px){
+ .card{
+   width: calc(100%/1 - 14px);
+   min-height: 20vh;
+ }
+}
+
+@media only screen and (min-width: 760px){
+ .card{
+  width: calc( 100% / 2 - 14px);
+  min-height: 30vh;
+ }
+}
+@media only screen and (min-width: 1010px){
+  .card{
+    width: calc(100%/4 - 14px);
+    min-height: 40vh;
+  }  
+}

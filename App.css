@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+    width:100%;
+    min-height: 100vh;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+.container{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-style: monospace, arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding-top: 8px;
+    margin: 0;
+  }
+
+  .welcome{
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+
+  
+

@@ -1,0 +1,58 @@
+
+  #text{
+    border:2px solid lightgray;    
+    width:300px;
+    height: 30px;
+    margin: 1%;
+    border-radius: 10px;
+    font-family: monospace;
+  }
+  
+  #button{
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+    border: 2px solid lightgray;
+    cursor: pointer;
+    color: white;
+    margin: 10% ;
+    margin-bottom:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #button:hover{
+    background-image: linear-gradient(to bottom right, rgba(173, 216, 230, 0.801), rgba(144, 238, 144, 0.589));
+  }
+
+  @media only screen and (min-width: 315px){
+    #text{
+      width:60vw;
+      height:30px;
+    }
+  }
+
+  @media only screen and (min-width: 760px){
+    #text{
+      width:50vw;
+      height: 40px;
+    }
+    #button{
+      width: 150px;
+      height: 40px;
+    }
+
+  }
+  @media only screen and (min-width: 1010px){
+    #text{
+      width:60vw;
+      height: 40px;
+      margin:1%;
+    }
+    #button{
+      width: 180px;
+      height: 40px;
+      margin:8%
+    }
+  }
+
+  
